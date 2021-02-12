@@ -87,4 +87,7 @@ footer {
   background-color: #2ec2b0;
   opacity: 60%;
   text-align: center;
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
 }
