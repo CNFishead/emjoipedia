@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import emojipedia from "../emojipedia";
 import Entry from "./Entry";
+import Footer from "./Footer";
 
 function createEntry(emojiTerm) {
   return (
@@ -19,6 +20,7 @@ function App() {
     <div>
       <Header />
       <dl className="dictionary">{emojipedia.map(createEntry)}</dl>
+      <Footer />
     </div>
   );
 }

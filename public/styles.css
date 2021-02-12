@@ -81,3 +81,10 @@ dd dl {
 dd dl .term {
   margin-bottom: 1rem;
 }
+
+footer {
+  color: #555;
+  background-color: #2ec2b0;
+  opacity: 60%;
+  text-align: center;
+}
